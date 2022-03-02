@@ -11,7 +11,7 @@ docker volume create mysql-data
 docker volume inspect mysql-data
 sudo ln -s /var/lib/docker/volumes/mysql-data/_data /mysql
 
-sudo docker run -d --name joomladb  -v mysql-data:/var/lib/mysql --network joomla-network -e "MYSQL_ROOT_PASSWORD=cairo1234" -e MYSQL_USER=joomla -e "MYSQL_PASSWORD=cairo1234" -e "MYSQL_DATABASE=joomla" mysql
+sudo docker run -d --name joomladb  -v mysql-data:/var/lib/mysql --network joomla-network -e "MYSQL_ROOT_PASSWORD=kamisama123" -e MYSQL_USER=joomla -e "MYSQL_PASSWORD=kamisama123" -e "MYSQL_DATABASE=joomla" mysql
 
 docker volume create joomla-data
 docker volume inspect joomla-data
@@ -25,7 +25,7 @@ http://localhost:8081
 • Database type - MySQLi
 • Hostname - joomladb
 • Username - joomla
-• Password - cairo1234
+• Password - kamisama123
 • Database - joomla
 
 docker ps -a
