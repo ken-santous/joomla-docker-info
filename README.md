@@ -1,6 +1,6 @@
 ```sh
 # joomla-docker-info
-joomla-docker-info
+
 apt-get update
 apt-get install docker.io
 docker network create joomla-network
