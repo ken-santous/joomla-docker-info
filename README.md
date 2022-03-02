@@ -1,3 +1,4 @@
+```sh
 # joomla-docker-info
 joomla-docker-info
 apt-get update
@@ -37,8 +38,4 @@ docker container start joomladb
 docker logs joomla
 docker logs joomladb
 
-
-
-
-
-
+```
