@@ -3,6 +3,8 @@
 
 apt-get update
 apt-get install docker.io
+# OR
+sudo snap install docker
 
 # Start the Docker daemon
 
