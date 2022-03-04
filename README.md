@@ -11,6 +11,9 @@ sudo snap install docker
 systemctl : $ sudo systemctl start docker
 service : $ sudo service docker start
 
+sudo systemctl status docker.service
+sudo systemctl status containerd.service
+
 
 docker network create joomla-network
 docker pull mysql
