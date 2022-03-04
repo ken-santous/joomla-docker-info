@@ -3,6 +3,13 @@
 
 apt-get update
 apt-get install docker.io
+
+# Start the Docker daemon
+
+systemctl : $ sudo systemctl start docker
+service : $ sudo service docker start
+
+
 docker network create joomla-network
 docker pull mysql
 docker pull joomla
